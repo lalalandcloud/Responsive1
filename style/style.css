@@ -164,8 +164,8 @@ footer>div>div>div{
 footer>div p{
     font-size: 12px;
 }
-footer>div>div{
-    /* justify-content: center; */
+footer>div>div p{
+    justify-content: center;
 }
 footer>div:nth-of-type(1){
     height: 14rem;

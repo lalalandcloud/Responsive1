@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    font-family:Montserrat;
+}
+header{
+    background-color: rgb(44, 62, 80);
+    height: 4.375rem;
+    color: white;
+    display: flex;
+    font-weight: bold;
+}
+img{
+    height: 10px;
+}
+header>div{
+    display: flex;
+    width: 49vw;
+    justify-content: space-around;
+    align-items: center;
+}
+header>div>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 20vw;
+    font-size: 10px;
+}
+#section1{
+    background-color: rgb(220, 53, 69);
+    height: 24rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#section1>div{
+    display: flex;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+#section1>div>p{
+    justify-content: center;
+    align-items: center;
+}
+
+#section1>div>img{
+    width: 150px;
+    height: 150px;
+}

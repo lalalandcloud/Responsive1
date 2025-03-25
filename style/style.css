@@ -15,6 +15,10 @@ body{
     margin: 0;
     font-family:Montserrat;
 }
+
+
+/* HEADER */
+
 header{
     background-color: rgb(44, 62, 80);
     height: 4.375rem;
@@ -38,6 +42,10 @@ header>div>ul{
     width: 20vw;
     font-size: 10px;
 }
+
+
+/* SECTION1 */
+
 #section1{
     background-color: rgb(220, 53, 69);
     height: 24rem;
@@ -62,6 +70,13 @@ header>div>ul{
     width: 150px;
     height: 150px;
 }
-h1:nth-of-type(1){
-    font-size: 2rem ;
+h1{
+    font-size: 2.5rem ;
+    margin-bottom: 0;
 }
+h2{
+    font-size: 2rem;
+}
+
+
+/* SECTION2 */

@@ -62,3 +62,6 @@ header>div>ul{
     width: 150px;
     height: 150px;
 }
+h1:nth-of-type(1){
+    font-size: 2rem ;
+}

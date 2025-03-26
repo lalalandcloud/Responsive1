@@ -300,10 +300,25 @@ footer i{
         padding: 0;
         justify-self:center;
     }
-    
+
 
     section:nth-of-type(4)>div>div{
         display: flex;
         align-self:center;
+    }
+    section>div:nth-of-type(2)>form>div{
+        height: auto;
+        width: auto;
+    }
+    section>div:nth-of-type(2)>form{
+        height: auto;
+        width: auto;
+    }
+    section>div:nth-of-type(2)>
+
+
+    footer>div>div{
+        margin: 0;
+        padding: 0;
     }
 }

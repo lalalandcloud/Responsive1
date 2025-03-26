@@ -39,6 +39,10 @@ header>div>ul{
     width: 20vw;
     font-size: 10px;
 }
+header>div>ul>li{
+    padding: 2px;
+
+}
 
 
 /* SECTION1 */
@@ -322,7 +326,13 @@ footer i{
         width: auto;
     }
 
+    footer{
+    }
+    footer>div:nth-of-type(1){
+        flex-wrap: wrap;
+        height: auto;
 
+    }
     footer>div>div{
         margin: 0;
         padding: 0;

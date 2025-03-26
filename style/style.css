@@ -85,7 +85,7 @@ h2{
     color: rgb(44, 62, 80);
 }
 #section2{
-    height:28rem ;
+    height:auto ;
 }
 #section2 div:nth-of-type(2){
     display: flex;
@@ -104,6 +104,10 @@ h2{
     margin: 1rem;
     border-radius: 10px;
 }
+#section2>div>#section2img{
+    height: auto;
+}
+
 
 /* SECTION3 */
 section:nth-of-type(3){
@@ -242,7 +246,7 @@ footer i{
 
 /* MEDIA QUERIES */
 
-@media (max-width:600px){
+@media (max-width:576px){
     header{
         height: 50%;
         width: auto;
@@ -312,7 +316,7 @@ footer i{
         height: auto;
         width: 20rem;
     }
-    
+
     section>div:nth-of-type(2)>form{
         height: auto;
         width: auto;
@@ -326,4 +330,18 @@ footer i{
     footer>div>div:nth-of-type(2)>div{
         flex-wrap: wrap;
     }
+}
+@media (min-width:576px) and (max-width:768px){
+
+    #section2>div>#section2img>div>img{
+        height: 8rem;
+        width: auto;
+    }
+    #section2{
+        height: auto;
+    }
+    #section2>div>#section2img{
+        height: auto;
+    }
+
 }

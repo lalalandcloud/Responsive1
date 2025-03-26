@@ -326,8 +326,6 @@ footer i{
         width: auto;
     }
 
-    footer{
-    }
     footer>div:nth-of-type(1){
         flex-wrap: wrap;
         height: auto;
